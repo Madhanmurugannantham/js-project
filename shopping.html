@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Shopping Cart website</title>
+  <link rel="stylesheet" href="shopping.css">
+</head>
+<body>
+
+  <div class="shop">
+    <h2 class="title">Products</h2>
+    <div class="products">
+      <div class="product" data-name="Apple" data-price="80.00">
+        <img src="https://images.pexels.com/photos/206959/pexels-photo-206959.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Apple" width="100">
+        <h3>Apple</h3>
+        <p>$180</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product" data-name="Banana" data-price="10.00">
+        <img src="https://images.pexels.com/photos/2316466/pexels-photo-2316466.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1" alt="Banana" width="100">
+        <h3>Banana</h3>
+        <p>$10</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+      <div class="product" data-name="Grapes" data-price="40.00">
+        <img src="https://images.pexels.com/photos/708777/pexels-photo-708777.jpeg?auto=compress&cs=tinysrgb&w=1260&h=750&dpr=1"alt="Grapes" width="100">
+        <h3>Grapes</h3>
+        <p>$40</p>
+        <button class="add-to-cart">Add to Cart</button>
+      </div>
+    </div>
+  </div>
+
+  <div class="cart">
+    <h2>Shopping Cart</h2>
+    <div id="cart-items"></div>
+    <p>Total: $<span id="total-price">0</span></p>
+  </div>
+
+  <script src="shopping.js"></script>
+</body>
+</html>
